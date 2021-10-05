@@ -16,3 +16,19 @@ body {
     font-family: "Barlow Semi Condensed", sans-serif;
     font-size: 1.3rem;
 }
+
+img {
+    border-radius: 100%;
+    float: left;
+    margin-right: 1rem;
+}
+
+.profile-details {
+    padding: 1.1rem 0;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
