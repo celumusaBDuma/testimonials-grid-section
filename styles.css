@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
 
+/*          Global styles
+--------------------------------- */
 *,
 *::after,
 *::before {
@@ -17,12 +19,73 @@ body {
     font-size: 1.3rem;
 }
 
+h2 {
+    font-size: 2.3rem;
+}
+
+p {
+    color: hsl(0, 0%, 81%);
+}
+
 img {
     border-radius: 100%;
     float: left;
     margin-right: 1rem;
 }
 
+.container {
+    width: 80%;
+    margin: 4rem auto;
+}
+
+/*          Card styles
+--------------------------------- */
+.card {
+    /* border: 3px solid grey; */
+    border-radius: 5px;
+    margin: 2rem;
+    padding: 3.5rem;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card .lead {
+    padding: 2rem 0;
+}
+
+.testimonies .card:nth-child(1) {
+    background-color: #7541c8;
+    color: #fff;
+}
+
+.testimonies .card:nth-child(2) {
+    background-color: #48556a;
+    color: #fff;
+}
+
+.testimonies .card:nth-child(3) {
+    background-color: #fff;
+}
+
+.testimonies .card:nth-child(4) {
+    background-color: #19212e;
+    color: #fff;
+}
+
+.testimonies .card:nth-child(5) {
+    background-color: #fff;
+    color: hsl(210, 46%, 95%);
+}
+
+.qoutation {
+    background-image: url(images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-size: 35%;
+    background-position: 80% 0%;
+    /* opacity: 0.7; */
+}
+
+/*          User styles
+--------------------------------- */
 .profile-details {
     padding: 1.1rem 0;
 }
